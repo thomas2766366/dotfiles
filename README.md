@@ -44,6 +44,8 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 ### Zsh Plugins
 
+Install the following zsh plugins.
+
 ```bash
 git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
 ```
@@ -58,8 +60,6 @@ Download and install a Nerd Font.
 
 <https://www.nerdfonts.com/>
 
-download and install firamono for linux
-
 ### Install p10k
 
 ```bash
@@ -68,6 +68,8 @@ git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerl
 
 ## Initial setup on a new machine
 
+Setup the repository as a bare repository.
+
 ```bash
 git clone --bare https://github.com/thomas2766366/dotfiles.git ~/dotfiles 
 alias dotfiles='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME' 
@@ -75,8 +77,22 @@ dotfiles config --local status.showUntrackedFiles no
 dotfiles checkout
 ```
 
-The 'dotfiles checkout' command may fail if certain files already exist in your home directory.
+The command may fail if certain files already exist in your home directory.
 You can back them up and delete them or copy the config files manually.
+
+## Backgrounds
+
+The different backgrounds used can be found in the `backgrounds` folder.
+
+### Gnome random background
+
+You can set a random background on Gnome with the following script.
+After you have made the script executable, you can call it to change the background.
+
+```bash
+chmod +x ~/backgrounds/gnome-change-bg.sh
+~/backgrounds/gnome-change-bg.sh
+```
 
 ## For future updates
 
