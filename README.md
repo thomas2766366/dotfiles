@@ -15,12 +15,13 @@ Dotfiles managed with a bare repository.
 - p10k
 - zsh
 - nvim
+- neofetch
 
 ## Installing the requirements
 
 ### Install ZSH & git
 
-Install ZSH and git with the appropriate package manager.
+Install ZSH and git with the appropriate package manager. You can also install the preferred apps or programs you want to use.
 
 ```bash
 sudo apt install zsh git
