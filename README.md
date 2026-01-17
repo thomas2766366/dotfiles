@@ -17,6 +17,10 @@ Dotfiles managed with a bare repository.
 - nvim
 - neofetch
 
+## Custom scripts
+
+- Random Gnome background changer
+
 ## Installing the requirements
 
 ### Install ZSH & git
@@ -71,6 +75,7 @@ git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerl
 Setup the repository as a bare repository.
 
 ```bash
+mkdir ~/dotfiles
 git clone --bare https://github.com/thomas2766366/dotfiles.git ~/dotfiles 
 alias dotfiles='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME' 
 dotfiles config --local status.showUntrackedFiles no 
@@ -82,7 +87,7 @@ You can back them up and delete them or copy the config files manually.
 
 ## Backgrounds
 
-The different backgrounds used can be found in the `backgrounds` folder.
+The different backgrounds used can be found in the `backgrounds/` folder.
 
 ### Gnome random background
 
