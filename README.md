@@ -21,7 +21,8 @@ Dotfiles managed with a bare repository.
 
 ### Install ZSH & git
 
-Install ZSH and git with the appropriate package manager. You can also install the preferred apps or programs you want to use.
+Install ZSH and git with the appropriate package manager.
+You can also install the preferred apps or programs you want to use.
 
 ```bash
 sudo apt install zsh git
@@ -74,7 +75,8 @@ dotfiles config --local status.showUntrackedFiles no
 dotfiles checkout
 ```
 
-The 'dotfiles checkout' command may fail if files already exist in your config. You can back them up and delete them or copy the config files manually.
+The 'dotfiles checkout' command may fail if certain files already exist in your home directory.
+You can back them up and delete them or copy the config files manually.
 
 ## For future updates
 
