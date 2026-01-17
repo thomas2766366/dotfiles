@@ -1,0 +1,78 @@
+# Dotfiles
+
+Dotfiles managed with a bare repository.
+
+## Requirements
+
+- git
+- zsh
+- p10k
+- Nerd Font
+
+### Installing the requirements
+
+#### Install ZSH & git
+
+Install ZSH and git with the appropriate package manager.
+
+```bash
+sudo apt install zsh git
+```
+
+#### Set zsh as default
+
+For example with the following command.
+
+```bash
+chsh -s $(which zsh)
+```
+
+#### Install ohmyzsh
+
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+#### Zsh Plugins
+
+```bash
+git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
+```
+
+```bash
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
+```
+
+##### Nerd Font
+
+Download and install a Nerd Font.
+
+<https://www.nerdfonts.com/>
+
+download and install firamono for linux
+
+#### Install p10k
+
+```bash
+git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+```
+
+## Initial setup on a new machine
+
+```bash
+git clone --bare https://github.com/thomas2766366/dotfiles.git ~/dotfiles 
+alias dotfiles='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME' 
+dotfiles config --local status.showUntrackedFiles no 
+dotfiles checkout
+```
+
+The 'dotfiles checkout' command may fail if files already exist in your config. You can back them up and delete them or copy the config files manually.
+
+## For future updates
+
+```bash
+dotfiles status 
+dotfiles add ~/.zshrc 
+dotfiles commit -m "Update zsh config" 
+dotfiles push
+```
