@@ -9,9 +9,16 @@ Dotfiles managed with a bare repository.
 - p10k
 - Nerd Font
 
-### Installing the requirements
+## Apps or programs with config files
 
-#### Install ZSH & git
+- alacritty
+- p10k
+- zsh
+- nvim
+
+## Installing the requirements
+
+### Install ZSH & git
 
 Install ZSH and git with the appropriate package manager.
 
@@ -19,7 +26,7 @@ Install ZSH and git with the appropriate package manager.
 sudo apt install zsh git
 ```
 
-#### Set zsh as default
+### Set zsh as default
 
 For example with the following command.
 
@@ -27,13 +34,13 @@ For example with the following command.
 chsh -s $(which zsh)
 ```
 
-#### Install ohmyzsh
+### Install ohmyzsh
 
 ```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-#### Zsh Plugins
+### Zsh Plugins
 
 ```bash
 git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
@@ -43,7 +50,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugi
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
 ```
 
-##### Nerd Font
+### Nerd Font
 
 Download and install a Nerd Font.
 
@@ -51,7 +58,7 @@ Download and install a Nerd Font.
 
 download and install firamono for linux
 
-#### Install p10k
+### Install p10k
 
 ```bash
 git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
