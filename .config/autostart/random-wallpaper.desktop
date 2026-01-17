@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Random Wallpaper
+Exec=/home/thomas/backgrounds/gnome-change-bg.sh
+X-GNOME-Autostart-enabled=true
+NoDisplay=true

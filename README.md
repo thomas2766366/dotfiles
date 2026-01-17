@@ -94,6 +94,11 @@ chmod +x ~/backgrounds/gnome-change-bg.sh
 ~/backgrounds/gnome-change-bg.sh
 ```
 
+#### Autostart
+
+The application can be found in [random-wallpaper.desktop](.config/autostart/random-wallpaper.desktop).
+Be sure to change the username accordingly.
+
 ## For future updates
 
 ```bash
