@@ -99,6 +99,10 @@ chmod +x ~/backgrounds/gnome-change-bg.sh
 ~/backgrounds/gnome-change-bg.sh
 ```
 
+Currently only works with .jpg files.
+The current background will be saved to 'backgounds/current.jpg'.
+You can use this file if you have issues with the lockscreen background.
+
 #### Autostart
 
 The application can be found in [random-wallpaper.desktop](.config/autostart/random-wallpaper.desktop).
