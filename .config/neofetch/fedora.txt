@@ -11,5 +11,5 @@ ccccccc${c2}d@P${c1}cccccc${c2}@@@${c1}ccccccccccccccc:
 cccccc${c2}@@o${c1}ccccccc${c2}@@@${c1}ccccccccccccccc'
 cccccc${c2}q@@b${c1}ccccc${c2}@@@P${c1}ccccccccccccc;  
 cccccccc${c2}q@@@@@@@P${c1}ccccccccccccc:,   
-'cccccccccccccccccccccccccc:.      
- ;ccccccccccccccccccccc:,.
+ccccccccccccccccccccccccccc:.      
+.:ccccccccccccccccccccc:,.
