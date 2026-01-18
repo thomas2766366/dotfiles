@@ -102,6 +102,7 @@ chmod +x ~/backgrounds/gnome-change-bg.sh
 Currently only works with .jpg files.
 The current background will be saved to 'backgounds/current.jpg'.
 You can use this file if you have issues with the lockscreen background.
+All files with 'current' in the name will be ignored when changing the background.
 
 #### Autostart
 
