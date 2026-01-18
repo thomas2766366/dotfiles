@@ -1,0 +1,15 @@
+
+${c1}              .'ccccc:.             
+         ,'ccccccccccccccc:.        
+      .';cccccccccccccccccccc:.     
+   .'cccccccccccccc${c2}o@@@@b${c1}ccccccc; 
+  .:ccccccccccccc${c2}d@@${c1}ccc${c2}q@@:${c1}cccccc, 
+ .:ccccccccccccc${c2}@@@${c1}ccccc${c2}@@P${c1}ccccccc;
+,:cccccccccccccc${c2}@@@${c1}ccccccccccccccc:
+ccccccccc${c2}o@@@@@${c1}c${c2}@@@@@@@${c1}ccccccccccc:
+ccccccc${c2}d@P${c1}cccccc${c2}@@@${c1}ccccccccccccccc:
+cccccc${c2}@@o${c1}ccccccc${c2}@@@${c1}ccccccccccccccc'
+cccccc${c2}q@@b${c1}ccccc${c2}@@@P${c1}ccccccccccccc;  
+cccccccc${c2}q@@@@@@@P${c1}ccccccccccccc:,   
+'cccccccccccccccccccccccccc:.      
+ ;ccccccccccccccccccccc:,.
