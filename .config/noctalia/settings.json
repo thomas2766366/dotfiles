@@ -85,7 +85,7 @@
                     "showAlbumArt": true,
                     "showArtistFirst": true,
                     "showProgressRing": true,
-                    "showVisualizer": false,
+                    "showVisualizer": true,
                     "useFixedWidth": false,
                     "visualizerType": "linear"
                 }
@@ -255,11 +255,11 @@
         "dimmerOpacity": 0,
         "enableShadows": false,
         "forceBlackScreenCorners": false,
-        "iRadiusRatio": 1,
+        "iRadiusRatio": 0.5,
         "language": "",
         "lockOnSuspend": true,
-        "radiusRatio": 0.99,
-        "scaleRatio": 1,
+        "radiusRatio": 0.5,
+        "scaleRatio": 0.9500000000000001,
         "screenRadiusRatio": 0,
         "shadowDirection": "bottom_right",
         "shadowOffsetX": 2,

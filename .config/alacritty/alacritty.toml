@@ -17,11 +17,11 @@ foreground = "#9cdef2"
 black   = "#2e3440"
 red     = "#e06c75"
 green   = "#7cced2"
-yellow  = "#e5c07b"
+yellow  = "#e5d07b"
 blue    = "#61afef"
 magenta = "#c678dd"
 cyan    = "#9cdef2"
-white   = "#afb4c0"
+white   = "#8ec3ef"
 
 # ── Font Settings ────────────────────────────────────────────────────────
 [font]
