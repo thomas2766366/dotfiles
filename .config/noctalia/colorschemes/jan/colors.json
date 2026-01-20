@@ -1,0 +1,37 @@
+{
+  "name": "Jan",
+  "author": "Thomas",
+
+  "mPrimary": "#61afef",
+  "mOnPrimary": "#1f2430",
+
+  "mSecondary": "#7cced2",
+  "mOnSecondary": "#1f2430",
+
+  "mTertiary": "#c678dd",
+  "mOnTertiary": "#1f2430",
+
+  "mBackground": "#1f2430",
+  "mOnBackground": "#9cdef2",
+
+  "mSurface": "#232836",
+  "mOnSurface": "#9cdef2",
+
+  "mSurfaceVariant": "#2b3142",
+  "mOnSurfaceVariant": "#9cdef2",
+
+  "mOutline": "#3e4451",
+  "mOutlineVariant": "#2e3440",
+
+  "mError": "#e06c75",
+  "mOnError": "#1f2430",
+
+  "mSuccess": "#7cced2",
+  "mWarning": "#e5c07b",
+  
+  "mInverseSurface": "#9cdef2",
+  "mInverseOnSurface": "#1f2430",
+  "mInversePrimary": "#528bff",
+
+  "mScrim": "#00000080"
+}
