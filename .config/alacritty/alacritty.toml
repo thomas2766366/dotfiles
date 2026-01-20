@@ -21,7 +21,7 @@ yellow  = "#e5c07b"
 blue    = "#61afef"
 magenta = "#c678dd"
 cyan    = "#9cdef2"
-white   = "#8292ad"
+white   = "#8292bd"
 
 # ── Font Settings ────────────────────────────────────────────────────────
 [font]

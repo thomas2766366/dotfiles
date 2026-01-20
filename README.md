@@ -9,6 +9,13 @@ Dotfiles managed with a bare repository.
 - p10k
 - Nerd Font
 
+### Niri specific
+
+- niri
+- noctalia
+- swaybg
+- swaylock
+
 ## Apps or programs with config files
 
 - alacritty
@@ -16,6 +23,7 @@ Dotfiles managed with a bare repository.
 - zsh
 - nvim
 - neofetch
+- niri
 
 ## Custom scripts
 
@@ -89,14 +97,14 @@ You can back them up and delete them or copy the config files manually.
 
 The different backgrounds used can be found in the `backgrounds/` folder.
 
-### Gnome random background
+### Random background
 
-You can set a random background on Gnome with the following script.
+You can set a random background within swaybg with the following script.
 After you have made the script executable, you can call it to change the background.
 
 ```bash
-chmod +x ~/backgrounds/gnome-change-bg.sh
-~/backgrounds/gnome-change-bg.sh
+chmod +x ~/backgrounds/change-bg.sh
+~/backgrounds/change-bg.sh
 ```
 
 Currently only works with .jpg files.
