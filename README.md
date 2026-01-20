@@ -6,6 +6,7 @@ Dotfiles managed with a bare repository.
 
 - git
 - zsh
+- alacritty
 - p10k
 - Nerd Font
 
@@ -15,6 +16,7 @@ Dotfiles managed with a bare repository.
 - noctalia
 - swaybg
 - swaylock
+- fuzzel
 
 ## Apps or programs with config files
 
@@ -27,7 +29,7 @@ Dotfiles managed with a bare repository.
 
 ## Custom scripts
 
-- Random Gnome background changer
+- Random background changer
 
 ## Installing the requirements
 
