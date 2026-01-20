@@ -25,6 +25,7 @@
 
   "mError": "#e06c75",
   "mOnError": "#1f2430",
+  "mHover": "#61afef",
 
   "mSuccess": "#7cced2",
   "mWarning": "#e5c07b",

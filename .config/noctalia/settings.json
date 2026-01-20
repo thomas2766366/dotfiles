@@ -31,7 +31,7 @@
     "bar": {
         "backgroundOpacity": 0.93,
         "capsuleOpacity": 1,
-        "density": "compact",
+        "density": "default",
         "exclusive": true,
         "floating": false,
         "hideOnOverview": false,
@@ -92,10 +92,14 @@
             ],
             "right": [
                 {
-                    "defaultSettings": {
-                        "refreshInterval": 5000
-                    },
-                    "id": "plugin:mini-docker"
+                    "blacklist": [
+                    ],
+                    "colorizeIcons": false,
+                    "drawerEnabled": true,
+                    "hidePassive": true,
+                    "id": "Tray",
+                    "pinned": [
+                    ]
                 },
                 {
                     "hideWhenZero": false,
@@ -136,7 +140,7 @@
     "brightness": {
         "brightnessStep": 5,
         "enableDdcSupport": false,
-        "enforceMinimum": true
+        "enforceMinimum": false
     },
     "calendar": {
         "cards": [
@@ -178,7 +182,7 @@
                 "id": "audio-card"
             },
             {
-                "enabled": false,
+                "enabled": true,
                 "id": "brightness-card"
             },
             {
