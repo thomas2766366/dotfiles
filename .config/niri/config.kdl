@@ -115,7 +115,7 @@ layout {
 }
 
 spawn-sh-at-startup "qs -c noctalia-shell"
-// spawn-sh-at-startup "~/backgrounds/change-bg.sh"
+spawn-sh-at-startup "~/backgrounds/change-bg.sh"
 
 hotkey-overlay {
     // Uncomment this line to disable the "Important Hotkeys" pop-up at startup.

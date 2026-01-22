@@ -1,0 +1,8 @@
+image=~/backgrounds/current.jpg
+
+indicator-radius=40
+indicator-thickness=5
+
+inside-color=#a3a3a3a3
+inside-clear-color=#cccc00a3
+inside-ver-color=#8ec3efa3
