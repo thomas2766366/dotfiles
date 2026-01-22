@@ -100,6 +100,8 @@ layout {
     }
 
     shadow {
+        off
+
         softness 30
         spread 5
         offset x=0 y=5
@@ -118,8 +120,7 @@ spawn-sh-at-startup "qs -c noctalia-shell"
 spawn-sh-at-startup "~/backgrounds/change-bg.sh"
 
 hotkey-overlay {
-    // Uncomment this line to disable the "Important Hotkeys" pop-up at startup.
-    // skip-at-startup
+    skip-at-startup
 }
 
 screenshot-path "~/Pictures/Screenshots/Screenshot from %Y-%m-%d %H-%M-%S.png"
@@ -136,8 +137,11 @@ window-rule {
 }
 
 window-rule {
-    match app-id=r#"firefox$"# title="^Picture-in-Picture$"
-    open-floating true
+    match app-id=r#"firefox$"#
+    match app-id=r#"MuseScore4$"#
+    match app-id=r#"reaper$"#
+
+    open-maximized true
 }
 
 /-window-rule {
@@ -158,6 +162,7 @@ binds {
     Mod+Return hotkey-overlay-title="Open a Terminal: alacritty" { spawn "alacritty"; }
     Mod+R hotkey-overlay-title="Run an Application: fuzzel" { spawn "fuzzel"; }
     Super+L hotkey-overlay-title="Lock the Screen: swaylock" { spawn "swaylock"; }
+    Super+B hotkey-overlay-title="Open the Browser: firefox" { spawn "firefox"; }
 
     Super+Alt+S allow-when-locked=true hotkey-overlay-title=null { spawn-sh "pkill orca || exec orca"; }
 
