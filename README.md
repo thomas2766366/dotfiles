@@ -9,12 +9,12 @@ Dotfiles managed with a bare repository.
 - alacritty
 - p10k
 - Nerd Font
+- swaybg
 
 ### Niri specific
 
 - niri
 - noctalia
-- swaybg
 - swaylock
 - fuzzel
 

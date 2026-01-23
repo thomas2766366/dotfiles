@@ -1,3 +1,7 @@
+[terminal.shell]
+program = "/usr/bin/zsh"
+args = ["--login"]
+
 # ── Cursor & Selection Colours ───────────────────────────────────────────
 [colors.cursor]
 cursor = "#528bff"
