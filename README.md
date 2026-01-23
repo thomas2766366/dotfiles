@@ -82,13 +82,19 @@ git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerl
 
 ## Initial setup on a new machine
 
+Add this the following line to the top of the `.zshrc` file.
+
+```
+dotfiles config --local status.showUntrackedFiles no 
+
+```
+
 Setup the repository as a bare repository.
 
 ```bash
 mkdir ~/dotfiles
 git clone --bare https://github.com/thomas2766366/dotfiles.git ~/dotfiles 
 alias dotfiles='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME' 
-dotfiles config --local status.showUntrackedFiles no 
 dotfiles checkout
 ```
 
