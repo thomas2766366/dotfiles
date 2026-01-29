@@ -6,7 +6,6 @@
         "customLaunchPrefixEnabled": false,
         "enableClipPreview": true,
         "enableClipboardHistory": false,
-        "enableSettingsSearch": true,
         "iconMode": "tabler",
         "ignoreMouseInput": false,
         "pinnedApps": [
@@ -26,7 +25,6 @@
         ],
         "preferredPlayer": "",
         "visualizerType": "linear",
-        "volumeFeedback": false,
         "volumeOverdrive": false,
         "volumeStep": 5
     },
@@ -43,8 +41,6 @@
         ],
         "outerCorners": false,
         "position": "top",
-        "screenOverrides": [
-        ],
         "showCapsule": false,
         "showOutline": false,
         "useSeparateOpacity": false,
@@ -165,10 +161,9 @@
     },
     "colorSchemes": {
         "darkMode": true,
-        "generationMethod": "tonal-spot",
         "manualSunrise": "06:30",
         "manualSunset": "18:30",
-        "monitorForColors": "",
+        "matugenSchemeType": "scheme-fruit-salad",
         "predefinedScheme": "colors",
         "schedulingMode": "off",
         "useWallpaperColors": false
@@ -259,13 +254,11 @@
         "boxRadiusRatio": 1,
         "compactLockScreen": false,
         "dimmerOpacity": 0,
-        "enableLockScreenCountdown": true,
         "enableShadows": false,
         "forceBlackScreenCorners": false,
         "iRadiusRatio": 0.5,
         "language": "",
         "lockOnSuspend": true,
-        "lockScreenCountdownDuration": 10000,
         "radiusRatio": 0.5,
         "scaleRatio": 0.9500000000000001,
         "screenRadiusRatio": 0,
@@ -286,7 +279,6 @@
         "screenLock": "",
         "screenUnlock": "",
         "session": "",
-        "startup": "",
         "wallpaperChange": ""
     },
     "location": {
@@ -428,8 +420,6 @@
         "memPollingInterval": 3000,
         "memWarningThreshold": 80,
         "networkPollingInterval": 3000,
-        "swapCriticalThreshold": 90,
-        "swapWarningThreshold": 80,
         "tempCriticalThreshold": 90,
         "tempPollingInterval": 3000,
         "tempWarningThreshold": 80,
@@ -439,13 +429,13 @@
     "templates": {
         "activeTemplates": [
         ],
-        "enableUserTheming": false
+        "enableUserTemplates": false
     },
     "ui": {
         "bluetoothDetailsViewMode": "grid",
         "bluetoothHideUnnamedDevices": false,
         "boxBorderEnabled": false,
-        "fontDefault": "Sans Serif",
+        "fontDefault": "JetBrainsMono Nerd Font",
         "fontDefaultScale": 1,
         "fontFixed": "monospace",
         "fontFixedScale": 1,
@@ -457,7 +447,6 @@
         "wifiDetailsViewMode": "grid"
     },
     "wallpaper": {
-        "automationEnabled": false,
         "directory": "/home/thomas/backgrounds",
         "enableMultiMonitorDirectories": false,
         "enabled": true,
@@ -468,16 +457,16 @@
         ],
         "overviewEnabled": false,
         "panelPosition": "follow_bar",
+        "randomEnabled": false,
         "randomIntervalSec": 3600,
+        "recursiveSearch": false,
         "setWallpaperOnAllMonitors": true,
-        "showHiddenFiles": false,
         "solidColor": "#1a1a2e",
         "transitionDuration": 1000,
         "transitionEdgeSmoothness": 0.05,
         "transitionType": "none",
         "useSolidColor": false,
         "useWallhaven": false,
-        "viewMode": "single",
         "wallhavenApiKey": "",
         "wallhavenCategories": "111",
         "wallhavenOrder": "desc",
