@@ -2,6 +2,25 @@
 
 Dotfiles managed with a bare repository.
 
+## Quick Install
+
+### Automated Installation (Full Desktop Setup)
+
+Install all dotfiles including desktop environment (Niri, Alacritty, etc.)
+on Ubuntu, Arch, or Fedora:
+
+```bash
+bash <(curl -fsSL https://raw.githubusercontent.com/thomas2766366/dotfiles/master/install.sh)
+```
+
+### Server Installation (Minimal Setup)
+
+Install only zsh, neovim, and essential configs for servers:
+
+```bash
+bash <(curl -fsSL https://raw.githubusercontent.com/thomas2766366/dotfiles/master/install-server.sh)
+```
+
 ## Requirements
 
 - git
