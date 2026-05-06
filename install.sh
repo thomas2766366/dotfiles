@@ -59,7 +59,7 @@ install_packages() {
     fi
     ;;
 
-  arch | manjaro)
+  arch | manjaro | cachyos)
     sudo pacman -Syu --noconfirm
     sudo pacman -S --noconfirm \
       git \
