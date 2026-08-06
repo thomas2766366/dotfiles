@@ -117,6 +117,7 @@ layout {
 }
 
 spawn-sh-at-startup "qs -c noctalia-shell"
+spawn-sh-at-startup "noctalia"
 spawn-sh-at-startup "~/backgrounds/change-bg.sh"
 
 hotkey-overlay {
