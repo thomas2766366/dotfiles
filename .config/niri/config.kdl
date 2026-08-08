@@ -6,6 +6,10 @@
 // Find the full list of options on the wiki:
 // https://yalter.github.io/niri/Configuration:-Input
 
+environment {
+    XDG_DATA_DIRS "/home/thomas/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share"
+}
+
 prefer-no-csd 
 input {
     keyboard {
@@ -33,8 +37,8 @@ input {
     mouse {
         // off
         // natural-scroll
-        accel-speed -0.6
-        // accel-profile "flat"
+        accel-speed 0.0
+        accel-profile "flat"
         // scroll-method "no-scroll"
     }
 
@@ -180,7 +184,7 @@ binds {
     XF86MonBrightnessUp allow-when-locked=true { spawn "brightnessctl" "--class=backlight" "set" "+10%"; }
     XF86MonBrightnessDown allow-when-locked=true { spawn "brightnessctl" "--class=backlight" "set" "10%-"; }
 
-    Mod+O repeat=false { toggle-overview; }
+    Mod+Space repeat=false { toggle-overview; }
     Mod+Q repeat=false { close-window; }
 
     Mod+Left  { focus-column-left; }
